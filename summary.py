@@ -25,7 +25,7 @@ def extract_transcript_details(youtube_video_url):
         return transcript
 
     except Exception as e:
-        raise e
+        print(e)
 
 
 def generate_gemini_content(transcript_text,prompt):
